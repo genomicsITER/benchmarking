@@ -23,7 +23,9 @@ For this purpose, we used the Genome in a Bottle (GIAB) NA12878/HG001 pilot samp
 
 Following the guidelines of the Truth and Consistency precisionFDA challenges we used hap.py and vcfeval tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
 
-![](https://github.com/genomicsITER/benchmarking/blob/master/images/comparison.png)
+<p align="center">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/images/comparison.png">
+</p>
 
 ---
 
