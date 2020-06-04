@@ -1,6 +1,8 @@
 # Benchmarking
 Benchmarking of WGS and WES workflows from NGS reference data and reference samples sequenced at ITER 
 
+![](https://github.com/genomicsITER/benchmarking/blob/master/images/funding_1.png)
+
 ## Table of contents
 
 * [Description](#description)
@@ -21,8 +23,13 @@ For this purpose, we used the Genome in a Bottle (GIAB) NA12878/HG001 pilot samp
 
 Following the guidelines of the Truth and Consistency precisionFDA challenges we used hap.py and vcfeval tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
 
+![](https://github.com/genomicsITER/benchmarking/blob/master/images/comparison.png)
+
 ---
 
 ## Funding
 
 Ministerio de Ciencia e Innovación (RTC-2017-6471-1; AEI/FEDER, UE); ITER agreement OA17/008; ECIT-ITER CGIEU0000219140; Ministerio de Educación y Formación Profesional (A.D.U.; FPU16/01435).
+
+![](https://github.com/genomicsITER/benchmarking/blob/master/images/funding_2.png)
+
