@@ -13,9 +13,14 @@ Benchmarking of WGS and WES workflows from NGS reference data and reference samp
 
 ## Description
 
-Bioinformatics benchmarking is essential to provide guidance for improving the variant calling process and define standards and performance metrics. We aimed to assess the performance of our current whole-genome (WGS) and whole-exome (WES) sequencing and bioinformatic workflows for detecting single nucleotide variants (SNVs) and small insertion and deletion (indels) in human samples.
+Bioinformatics benchmarking is essential to provide guidance for improving the variant calling process and define standards and performance metrics. To achieve this goal, several public-private-academic organisations have arisen in the last few years. One of them is the Genome in a Bottle (GIAB) Consortium, hosted by National Institute of Standards and Technology (NIST). It provides reference materials, standards and methods to perform translation of whole human genome sequencing to clinical practice. GIAB follows the Global Alliance for Genomics and Health (GA4GH) recommendations to standardise performance metrics and tools that enables to accomplish the previous goal. Also, PrecisionFDA is a platform from Food and Drug Administration (FDA) involved in the analysis of biological datasets in order to advance precision medicine.
 
-For this purpose, we used the Genome in a Bottle (GIAB) NA12878/HG001 pilot sample provided by the PrecisionFDA. This sample has been studied extensively and is used as a reference for benchmarking. we aimed to perform our experiment in two different comparisons: one comparison for whole genome sequences and another comparison for whole-exome sequences.
+We aimed to assess the performance of our current whole-genome (WGS) and whole-exome (WES) sequencing and bioinformatic workflows for detecting single nucleotide variants (SNVs) and small insertion and deletion (indels) in human samples. For this purpose, we used four Genome in a Bottle reference samples:
+
+* NA12878/HG001, NA12891 and NA12892: These three samples are part of a well-known multigenerational family from Utah in the US.
+* NA24385/HG002: This sample belongs to the son member of an Ashkenazi Jews trio.
+
+These sample has been studied extensively and are used as a reference for benchmarking. We aimed to perform our experiment in two different comparisons: one comparison for whole genome sequences and another comparison for whole-exome sequences.
 
 ---
 
