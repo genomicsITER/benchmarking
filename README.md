@@ -26,7 +26,11 @@ These sample has been studied extensively and are used as a reference for benchm
 
 ## Comparison
 
-Following the guidelines of the Truth and Consistency precisionFDA challenges we used hap.py and vcfeval tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
+Following the guidelines of the Truth and Consistency precisionFDA challenges we used [hap.py](https://github.com/Illumina/hap.py) and [vcfeval](https://github.com/RealTimeGenomics/rtg-tools) tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
+
+* Recall: also known as sensitivity, defined as the percentage of real variants that we were able to identify.
+* Precision: defined as the percentage of variants we called that are actually real.
+* F-measure: defined as the harmonic mean of the precision and recall.
 
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/images/comparison.png">
