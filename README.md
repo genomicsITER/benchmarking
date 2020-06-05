@@ -22,6 +22,15 @@ We aimed to assess the performance of our current whole-genome (WGS) and whole-e
 
 These sample has been studied extensively and are used as a reference for benchmarking. We aimed to perform our experiment in two different comparisons: one comparison for whole genome sequences and another comparison for whole-exome sequences.
 
+<p align="center">
+    <a href="https://github.com/genomicsITER/benchmarking/tree/master/WGS" title="Go to WGS">
+      <img src="https://github.com/genomicsITER/benchmarking/blob/master/images/WGS.png">
+    </a> 
+    <a href="https://github.com/genomicsITER/benchmarking/tree/master/WES" title="Go to WES">
+      <img src="https://github.com/genomicsITER/benchmarking/blob/master/images/WES.png">
+    </a>
+</p>
+
 ---
 
 ## Comparison
