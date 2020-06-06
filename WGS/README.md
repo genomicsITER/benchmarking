@@ -6,9 +6,17 @@ For whole genome sequencing benchmarking we performed two PrecisionFDA challenge
 
 First, for Consistency Challenge two datasets from HG001 pilot sample were provided. Both samples were sequenced on a HiSeq X with the same conditions but in differents sequencing centers (Garvan Institute of Medical Research and Human Longevity, Inc.). The main purpose is to study reproducibility between different datasets of the same sample and analyse if the input affects the accuracy of results. This accuracy is determined in terms of recall, precision and F-measure. You can find a more detailed scheme of this challenge on the next figure.
 
+<p align="center">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/Consistency_Challenge_workflow.png" width="70%">
+</p>
+
 ### Truth Challenge
 
 As already stated, both challenges are very similar. However, this challenge improves results evaluation considering SNP and indels separately. Normally, SNPs calling is easier than indel calling, so, reporting separate statistics for SNPs and indels can be advantageous for a better understanding of results. Also, NA24385/HG002 reference sample is added to provided datasets. This new sample allows to avoid variant calling overfitting for a single reference sample. You can find a more detailed scheme of this challenge on the next figure.
+
+<p align="center">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/Truth_Challenge_workflow.png" width="45%">
+</p>
 
 ## Material and methods
 
@@ -22,3 +30,7 @@ Once we downloaded datasets we ran our variant calling pipeline. In short, WGS r
 
 For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of both challenges. Remarkably, both indel recall and F-measure values are higher in our Truth Challenge results.
 
+<p align="center">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png">
+</p>
