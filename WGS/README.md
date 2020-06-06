@@ -31,6 +31,6 @@ Once we downloaded datasets we ran our variant calling pipeline. In short, WGS r
 For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of both challenges. Remarkably, both indel recall and F-measure values are higher in our Truth Challenge results.
 
 <p align="center">
-  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png">
-  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png" width="45%">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png" width="47.5%">
 </p>
