@@ -1,6 +1,6 @@
 # Whole genome sequencing
 
-For whole genome sequencing benchmarking we performed two PrecisionFDA challenges that took place in 2016: Consistency and Truth Challenges. The goal of these two challenges is to improve quality standards in order to achieve more accurate and consistent results in the context of genetic tests. The main structure of both challenges is very similar but, there are a few changing details.
+For whole genome sequencing benchmarking we performed two PrecisionFDA challenges that took place in 2016: [Consistency](https://precision.fda.gov/challenges/consistency) and [Truth](https://precision.fda.gov/challenges/truth) Challenges. The goal of these two challenges is to improve quality standards in order to achieve more accurate and consistent results in the context of genetic tests. The main structure of both challenges is very similar but, there are a few changing details.
 
 ### Consistency Challenge
 
