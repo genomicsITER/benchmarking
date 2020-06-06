@@ -28,7 +28,7 @@ Once we downloaded datasets we ran our variant calling pipeline. In short, WGS r
 
 ## Results
 
-For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of both challenges. Remarkably, both indel recall and F-measure values are higher in our Truth Challenge results.
+For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of both challenges. We compared our results with those from other top-ranked pipelines for each challenge. Our ranking in each Challenge is shown in white numbers (out of nineteen and twenty-nine participants in the Consistency and Truth Challenges, respectively). We found that our values are not the highest in the Consistency Challenge but, even though, they are still good enough. In the Truth Challenge comparison, both the recall and F-measure metrics for indels are the highest. Indel calling is more complicated than SNP calling, so this result is remarkable.
 
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png" width="45%">
