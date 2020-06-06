@@ -12,4 +12,6 @@ Furthermore, we obtained a WES reference dataset from WGS reference dataset by e
 
 Our WES metric values were lower than those observed for WGS data. We think that this result might be related to the non-uniform coverage found in whole-exome sequencing enrichment when comparing to the data obtained from the Genome in a Bottle pilot sample for the same exonic regions.
 
-
+<p align="center">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WES/images/WES_results.png" width="40%">
+</p>
