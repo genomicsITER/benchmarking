@@ -7,6 +7,7 @@ Benchmarking of WGS and WES workflows from NGS reference data and reference samp
 
 * [Description](#description)
 * [Comparison](#comparison)
+* [Conclusions](#conclusions)
 * [Funding](#funding)
 
 ---
@@ -46,6 +47,12 @@ We aimed to perform our experiment in two different comparisons: one comparison 
       <img src="https://github.com/genomicsITER/benchmarking/blob/master/images/WES.png">
     </a>
 </p>
+
+---
+
+## Conclusions
+
+We have developed and tested a custom pipeline to conduct WGS and WES-based benchmarking to ensure reproducibility. These results support that our current procedures and workflows are reliable, albeit a fine-grained study of inaccuracies is underway.
 
 ---
 
