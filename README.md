@@ -1,4 +1,4 @@
-# Benchmarking
+# Benchmarking 
 Benchmarking of WGS and WES workflows from NGS reference data and reference samples sequenced at ITER.
 
 ![](https://github.com/genomicsITER/benchmarking/blob/master/images/funding_1.png)
