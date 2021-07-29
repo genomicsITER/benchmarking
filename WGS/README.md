@@ -23,7 +23,7 @@ As already stated, both challenges are very similar. However, this challenge imp
 Previous benchmarks were limited to “easier-to-map” regions of the genome. However, new long and linked read technologies along with new bioinformatics pipelines have enabled the characterization of increasingly challenging regions of the genome. In January 2020, the PrecisionFDA project announced the Truth Challenge V2. This challenge assessed variant calling pipeline performance with a focus on difficult-to-map regions, segmental duplications, and Major Histocompatibility Complex (MHC) using three Genome in a Bottle human genome benchmarks (HG002, HG003 and HG004 reference samples, the son, father and mother of the Ashkenazi trio, respectively). You can find a more detailed scheme of this challenge on the next figure.
 
 <p align="center">
-  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/Truth_Challenge_workflow.png" width="45%">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge-V2_workflow.png" width="45%">
 </p>
 
 ## Material and methods
