@@ -34,16 +34,18 @@ Once we downloaded datasets we ran our variant calling pipeline. In short, WGS r
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/WGS_workflow.png">
 </p>
 
+For Truth Challenge V2, PrecisionFDA provided FASTQ files from three different technologies, Illumina, PacBio and ONT. So, we performed a different approach for this challenge. Illumina dataset were processed as the previous challenges, but, GRCh38 reference genome was used instead of GRCh37. For PacBio and ONT datasets we used Minimap2 v2.17 for alignment and Longshot v0.4.1 for variant calling.
+
 ## Results
 
-For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of both challenges. We compared our results with those from other top-ranked pipelines for each challenge. Our ranking in each Challenge is shown in white numbers (out of nineteen and twenty-nine participants in the Consistency and Truth Challenges, respectively). We found that our values are not the highest in the Consistency Challenge but, even though, they are still good enough. In the Truth Challenge comparison, both the recall and F-measure metrics for indels are the highest. Indel calling is more complicated than SNP calling, so this result is remarkable.
+For the first challenge we called the same variants by rerunning our pipeline with the same input, so, we concluded that our pipeline is reproducible. Focusing on accuracy results, a relatively high performance was observed according to recall, precision and F-measure metrics from the benchmarking of first two challenges. We compared our results with those from other top-ranked pipelines for each challenge. Our ranking on each challenge is shown in white numbers (out of nineteen and twenty-nine participants in the Consistency and Truth Challenges, respectively). We found that our values are not the highest in the Consistency Challenge but, even though, they are still good enough. In the Truth Challenge comparison, both the recall and F-measure metrics for indels are the highest. Indel calling is more complicated than SNP calling, so this result is remarkable.
 
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png" width="45%">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png" width="47.5%">
 </p>
 
-For Truth Challenge V2 we obtained good results for both SNPs and indels when comparing all benchmarked regions. But, when we focus on difficult-to-map regions metrics are lower, especially the recall metrics. Lastly, MHC metrics were pretty bad, showing the high difficulty of variant calling in this region.
+For Truth Challenge V2 we obtained good results for both SNPs and indels when comparing all benchmarked regions. But, when we focus on difficult-to-map regions metrics are lower, especially recall metrics. Lastly, MHC metrics were the worst, showing the high difficulty of variant calling in this region.
 
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge-V2_results.png" width="70%">
