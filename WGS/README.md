@@ -41,5 +41,5 @@ For the first challenge we called the same variants by rerunning our pipeline wi
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/ConsistencyChallenge_results.png" width="45%">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png" width="47.5%">
-  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge-V2_results.png" width="47.5%">
+  <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge-V2_results.png" width="55.5%">
 </p>
