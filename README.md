@@ -16,7 +16,7 @@ Benchmarking of WGS and WES workflows from NGS reference data and reference samp
 
 Bioinformatics benchmarking is essential to provide guidance for improving the variant calling process and define standards and performance metrics. To achieve this goal, several public-private-academic organisations have arisen in the last few years. One of them is the Genome in a Bottle ([GIAB](https://jimb.stanford.edu/giab)) Consortium, hosted by National Institute of Standards and Technology ([NIST](https://www.nist.gov/)). It provides reference materials, standards and methods to perform translation of whole human genome sequencing to clinical practice. GIAB follows the Global Alliance for Genomics and Health (GA4GH) Benchmarking Team recommendations to standardise performance metrics and tools that enables to accomplish the previous goal. Also, [PrecisionFDA](https://precision.fda.gov/) is a platform from Food and Drug Administration (FDA) involved in the analysis of biological datasets in order to advance precision medicine.
 
-We aimed to assess the performance of our current whole-genome (WGS) and whole-exome (WES) sequencing and bioinformatic workflows for detecting single nucleotide variants (SNVs) and small insertion and deletion (indels) in human samples. For this purpose, we used two Genome in a Bottle reference samples:
+We aimed to assess the performance of our current whole-genome (WGS) and whole-exome (WES) sequencing and bioinformatic workflows for detecting single nucleotide variants (SNVs) and small insertion and deletion (indels) in human samples. For this purpose, we used four Genome in a Bottle reference samples:
 
 * NA12878/HG001: This sample belongs to a well-known multigenerational family from Utah in the US.
 * NA24385/HG002: This sample belongs to the son member of an Ashkenazi Jews trio.
@@ -29,7 +29,7 @@ These sample has been studied extensively and are used as a reference for benchm
 
 ## Comparison
 
-Following the guidelines of the Truth and Consistency precisionFDA challenges we used [hap.py](https://github.com/Illumina/hap.py) and [vcfeval](https://github.com/RealTimeGenomics/rtg-tools) tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
+Following the guidelines of the precisionFDA we used [hap.py](https://github.com/Illumina/hap.py) and [vcfeval](https://github.com/RealTimeGenomics/rtg-tools) tools for comparing our results with the reference VCF sample. These tools assess three different metrics: recall, precision and F-measure.
 
 * Recall: also known as sensitivity, defined as the percentage of real variants that we were able to identify.
 * Precision: defined as the percentage of variants we called that are actually real.
