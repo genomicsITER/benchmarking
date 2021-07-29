@@ -20,6 +20,8 @@ We aimed to assess the performance of our current whole-genome (WGS) and whole-e
 
 * NA12878/HG001: This sample belongs to a well-known multigenerational family from Utah in the US.
 * NA24385/HG002: This sample belongs to the son member of an Ashkenazi Jews trio.
+* HG003: This sample belongs to the father member of an Ashkenazi Jews trio.
+* HG004: This sample belongs to the mother member of an Ashkenazi Jews trio.
 
 These sample has been studied extensively and are used as a reference for benchmarking.
 
