@@ -43,7 +43,7 @@ For the first challenge we called the same variants by rerunning our pipeline wi
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge_results.png" width="47.5%">
 </p>
 
-
+For Truth Challenge V2 we obtained good results for both SNPs and indels when comparing all benchmarked regions. But, when we focus on difficult-to-map regions metrics are lower, especially the recall metrics. Lastly, MHC metrics were pretty bad, showing the high difficulty of variant calling in this region.
 
 <p align="center">
   <img src="https://github.com/genomicsITER/benchmarking/blob/master/WGS/images/TruthChallenge-V2_results.png" width="70%">
